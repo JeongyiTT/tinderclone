@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder</title>
+    <link rel="stylesheet" href="./css/tinder.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="side">
+            <div class="header">
+                <div class="avatar">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/220328_Yoo_Jeong-yeon_TWICE_digital_film.jpg/360px-220328_Yoo_Jeong-yeon_TWICE_digital_film.jpg" alt="Profile Picture">
+                </div>
+                <div class="title">Jeongyeon</div>
+            </div>
+            <div class="menu__tinder">
+                <ul>
+                    <li>Matches</li>
+                    <li class="active">Mensajes</li>
+                </ul>
+            </div>
+            <div class="messages">
+                <div class="avatar">
+                    <img src="https://64.media.tumblr.com/08db8aec2796c0ff7e9b6ea20e92c117/275e11e29bbac67e-98/s1280x1920/2854c20102f628d3b9c6ba2cadb34f93d4902867.jpg" alt="Profile Picture">
+                </div>
+                <div class="friend">
+                    <div class="user">Harvey</div>
+                    <div class="text">Omg Jeonyi Ily!</div>
+                </div>
+            </div>
+            <div class="messages">
+                <div class="avatar">
+                    <img src="https://villagepipol.com/wp-content/uploads/2022/12/soyeon-FI.png" alt="Profile Picture">
+                </div>
+                <div class="friend">
+                    <div class="user">Soyeon</div>
+                    <div class="text">Hi Jeonyi! Howyd :D</div>
+                </div>
+            </div>
+            <div class="messages">
+                <div class="avatar">
+                    <img src="https://www.nacionrex.com/__export/1610396468420/sites/debate/img/2021/01/11/exo-kyungsoo-cumpleanos_crop1610395368429.jpg_423682103.jpg" alt="Profile Picture">
+                </div>
+                <div class="friend">
+                    <div class="user">Kyungsoo</div>
+                    <div class="text">Ola mami jy te dedico Fancy</div>
+                </div>
+            </div>
+        </div>
+
+        <ion-icon id="dislike" name="heart-dislike-circle-outline"></ion-icon>
+        <div id="swiper"></div>
+        <ion-icon id="like" name="heart-circle-outline"></ion-icon>
+    </div>
+
+    <script src="./js/card.js"></script>
+    <script src="./js/tinder.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
